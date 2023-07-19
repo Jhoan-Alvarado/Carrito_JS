@@ -1,0 +1,55 @@
+.delete-product, .modal-header-button{
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+.ver-carrito{
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ver-carrito img{
+    width: 50px;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    text-align: center;
+    border: 2px black solid;
+    padding: 40px;
+}
+
+.producto img{
+    width: 145px;
+    height: 180px;
+}
+
+.shop-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.modal-header{
+    display: flex;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 140px;
+}
+
+.modal-content img{
+    width: 145px;
+    height: 180px;
+}
+
